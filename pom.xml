@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bitsnbytes</groupId>
-	<artifactId>productlist</artifactId>
+	<artifactId>product</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>productlist</name>
-	<description>productlist project for Spring Boot</description>
+	<name>product</name>
+	<description>product project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
