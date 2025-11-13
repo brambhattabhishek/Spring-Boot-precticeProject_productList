@@ -5,12 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class ProductlistApplication {
+public class ProductApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(ProductlistApplication.class, args);
-        MyApp myApp = context.getBean(MyApp.class);
-        myApp.run();
+		SpringApplication.run(ProductApplication.class, args);
+
 
 	}
 
