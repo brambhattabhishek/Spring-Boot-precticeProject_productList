@@ -14,13 +14,13 @@ import lombok.Setter;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    private Long id;
     private String name;
     private String description;
-    private String price;
+    private Double price;
 
     @ManyToOne
-    @JoinColumn(name = "category_id" , nullable = false)   // is product walle table me category_id hoga or iski walue , category wale table ke id ko store karega
+    @JoinColumn(name = "categoryId" , nullable = false)   // is product walle table me category_id hoga or iski walue , category wale table ke id ko store karega
     //matlab , category_id ye ek foreign key hai is product table me , leking yehi primary key hai in category table me
     private  Category category;
 
